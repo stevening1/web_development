@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Steven Ing</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="top-container">
+      <img class="top-cloud"src="My Site Images/cloud.png" alt="cloud_img">
+      <h1>I'm Steven.</h1>
+      <h2 class="title">a programmer.</h2>
+      <img class="bottom-cloud"src="My Site Images/cloud.png" alt="cloud_img">
+      <img src="My Site Images/mountain.png" alt="mountain_img">
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img class="profile-picture" src="My Site Images/circle-cropped.png" alt="profile-picture">
+        <h2>Hello.</h2>
+        <p>I am learning fullstack web development.</p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="html" src="My Site Images/html.png" alt="html-symbol">
+          <h3>Hypertext Markup Language</h3>
+          <p>Can structure websites using HTML.</p>
+        </div>
+        <div class="skill-row">
+          <img class="css" src="My Site Images/css.png" alt="css-symbol">
+          <h3>Cascading Style Sheets</h3>
+          <p>Can style websites using CSS.</p>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <p class="contact-message">Want to contact me? Click the button below.</p>
+          <a href="mailto:stevening3@gmail.com" class="btn">Contact Me</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://za.linkedin.com/in/steven-ing-a0781973">LinkedIn</a>
+      <a href="https://www.facebook.com/steven.ing.31/">Facebook</a>
+      <a href="https://www.instagram.com/steven_ing/">Instagram</a>
+      <p class="copyright">© 2020 Steven Ing.</p>
+    </div>
+  </body>
+</html>
