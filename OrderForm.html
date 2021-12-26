@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h2>Computer Components Order Form</h2> <!--Order form title-->
+        <link rel="stylesheet" href="OrderForm.css"> <!--Connects css file to html file-->
+        <script src="OrderForm.js"></script> <!--Connects js file to html file-->
+
+    </head>
+    <body>
+        <table> 
+            <colgroup>
+                <col style="background-color: aquamarine;"> <!--Changes the colour of the first column in table-->
+                <col style="background-color: rgb(193, 197, 196);"> <!--Changes the colour of the second column in table-->
+            </colgroup>
+        
+            <tr> <!--Creates a row with column headers-->
+                <th>Item</th>
+                <th>Price($)</th>
+                <th>Quantity</th>
+            </tr> 
+            <tr> <!--Creates a row with the inputs in the td tags-->
+                <td>Central Processing Unit (CPU)</td>
+                <td class="col2">150</td>
+                <td><input type="number" value="0" class="qty" id="qty_cpu"/></td> <!--Allows users to input a quantity of components to buy-->
+            </tr>
+            <tr>
+                <td>Motherboard</td>
+                <td class="col2">150</td>
+                <td><input type="number" value="0" class="qty" id="qty_motherboard"/></td>
+            </tr>
+            <tr>
+                <td>Graphics Card</td>
+                <td class="col2">125</td>
+                <td><input type="number" value="0" class="qty" id="qty_graphics"/></td>
+            </tr>
+            <tr>
+                <td>RAM</td>
+                <td class="col2">175</td>
+                <td><input type="number" value="0" class="qty" id="qty_ram"/></td>
+            </tr>
+            <tr>
+                <td>SSD</td>
+                <td class="col2">200</td>
+                <td><input type="number" value="0" class="qty" id="qty_ssd"/></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <!--Creates a button that calls the CalculateTotal() functions when clicked-->
+                <td colspan=2><input type="button" value="Total Price" onclick="CalculateTotal()" id="button"></td> 
+                <td><input type="number" id="total"></td> <!--Order total is displayed in this cell-->
+            </tr>
+        </table>
+        <br>
+        <!--Creates a button that shows an order confirmation message when clicked-->
+        <input type="button" value="Submit Order" onclick="OrderMessage()" id="message">
+    </body>
+</html>
